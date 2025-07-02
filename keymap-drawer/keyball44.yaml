@@ -39,12 +39,12 @@ layers:
   - INT RO
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
-  - {t: '$$mdi:apple-keyboard-option$$', h: QWRT}
+  - {t: '$$mdi:apple-keyboard-option$$', h: MOUSE}
   - {t: INT MUHENKAN, h: SYM}
   - {t: '$$mdi:keyboard-space$$', h: SCROLL}
   - {t: '$$mdi:keyboard-return$$', h: SCROLL}
   - {t: INT HENKAN, h: SYM}
-  - {t: '$$mdi:backspace$$', h: QWRT}
+  - {t: '$$mdi:backspace$$', h: MOUSE}
   SYM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '!'
@@ -174,12 +174,12 @@ layers:
   - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   NUM:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '1'
