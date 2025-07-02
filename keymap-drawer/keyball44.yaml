@@ -41,8 +41,8 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:apple-keyboard-option$$', h: QWRT}
   - {t: INT MUHENKAN, h: SYM}
-  - {t: '$$mdi:keyboard-space$$', h: NUM}
-  - {t: '$$mdi:keyboard-return$$', h: NUM}
+  - {t: '$$mdi:keyboard-space$$', h: SCROLL}
+  - {t: '$$mdi:keyboard-return$$', h: SCROLL}
   - {t: INT HENKAN, h: SYM}
   - {t: '$$mdi:backspace$$', h: QWRT}
   SYM:
@@ -131,8 +131,8 @@ layers:
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   MOUSE:
@@ -221,7 +221,7 @@ layers:
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
