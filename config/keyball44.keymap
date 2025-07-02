@@ -68,7 +68,7 @@
             bindings = <
 &none   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT              &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none
 &none   &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans                   &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp EQUAL              &none
-&none   &kp DEL          &kp BSPC      &kp J         &kp SPACE     &trans                   &kp UNDERSCORE  &kp PLUS       &kp RBKT          &kp BSLH              &kp NON_US_BACKSLASH   &none
+&none   &none            &kp BSPC      &kp J         &kp SPACE     &trans                   &kp UNDERSCORE  &kp PLUS       &kp RBKT          &kp BSLH              &kp NON_US_BACKSLASH   &none
 &trans  &trans           &trans        &trans        &trans                         &trans  &trans                                                                                        &trans
             >;
         };
