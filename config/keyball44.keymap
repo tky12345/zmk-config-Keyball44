@@ -56,10 +56,10 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp ESCAPE      &kp Q         &kp W           &kp E        &kp R               &kp T                        &kp Y      &kp U  &kp I      &kp O    &kp P      &kp LBKT
-&mt LCTRL TAB   &kp A         &kp S           &kp D        &kp F               &kp G                        &kp H      &kp J  &kp K      &kp L    &kp MINUS  &kp SEMI
-&kp LEFT_SHIFT  &kp Z         &kp X           &kp C        &kp V               &kp B                        &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp INT_RO
-&kp LEFT_ALT    &kp LEFT_GUI  &lt 3 LEFT_ALT  &lt 1 SPACE  &lt 2 INT_MUHENKAN             &lt 2 INT_HENKAN  &lt 1 RET                                        &lt 3 BACKSPACE
+&kp ESCAPE      &kp Q         &kp W           &kp E        &kp R               &kp T                        &kp Y      &kp U  &kp I      &kp O    &kp P        &kp LBKT
+&mt LCTRL TAB   &kp A         &kp S           &kp D        &kp F               &kp G                        &kp H      &kp J  &kp K      &kp L    &kp MINUS    &kp SEMI
+&kp LEFT_SHIFT  &kp Z         &kp X           &kp C        &kp V               &kp B                        &kp N      &kp M  &kp COMMA  &kp DOT  &lt 3 SLASH  &kp INT_RO
+&kp LEFT_ALT    &kp LEFT_GUI  &lt 3 LEFT_ALT  &lt 1 SPACE  &lt 2 INT_MUHENKAN             &lt 2 INT_HENKAN  &lt 1 RET                                          &lt 3 BACKSPACE
             >;
         };
 
@@ -86,10 +86,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&none   &kp N1          &kp N2          &kp N3        &kp N4     &kp N5              &kp N6    &kp N7    &kp UP     &kp N9     &kp N0     &none
-&trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none               &trans    &kp LEFT  &kp DOWN   &kp RIGHT  &kp PG_UP  &kp HOME
-&none   &none           &none           &none         &none      &none               &mkp MB5  &mkp MB5  &mkp LCLK  &mkp RCLK  &kp PG_DN  &kp END
-&trans  &trans          &trans          &trans        &trans                 &trans  &trans                                               &none
+&kp ESC    &kp N1          &kp N2          &kp N3        &kp N4     &kp N5              &kp N6    &kp N7    &kp UP     &kp N9     &kp N0     &none
+&kp TAB    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none               &trans    &kp LEFT  &kp DOWN   &kp RIGHT  &kp PG_UP  &kp HOME
+&kp LSHFT  &none           &none           &none         &none      &none               &mkp MB5  &mkp MB5  &mkp LCLK  &mkp RCLK  &kp PG_DN  &kp END
+&trans     &trans          &trans          &trans        &trans                 &trans  &trans                                               &none
             >;
         };
 
