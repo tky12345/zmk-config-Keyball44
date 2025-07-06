@@ -74,7 +74,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -89,7 +89,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   NUM:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -134,7 +134,7 @@ layers:
   - {type: held}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   MOUSE:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
