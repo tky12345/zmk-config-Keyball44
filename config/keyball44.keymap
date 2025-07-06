@@ -66,10 +66,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&none   &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT              &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&none   &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans                   &none           &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp CARET              &kp COLON
-&none   &none            &none         &none         &kp SPACE     &trans                   &kp UNDERSCORE  &kp PLUS       &kp COMMA         &kp DOT               &trans                 &kp BSLH
-&trans  &trans           &trans        &trans        &trans                         &trans  &trans                                                                                        &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT              &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans  &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans                   &trans     &trans         &trans        &trans                &kp EQUAL              &kp APOS
+&trans  &trans           &trans        &trans        &kp SPACE     &trans                   &trans     &trans         &kp RBKT      &kp BSLH              &trans                 &kp INT_YEN
+&trans  &trans           &trans        &trans        &trans                         &trans  &trans                                                                               &trans
             >;
         };
 
@@ -96,9 +96,9 @@
         number_layer {
             label = "NUM2";
             bindings = <
-&none    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &none
-&none    &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                    &none         &kp N4        &kp N5        &kp N6        &none         &none
-&none    &kp F6        &kp F7        &kp F8        &kp F9        &kp F10                   &kp N0        &kp NUMBER_1  &kp N2        &kp N3        &none         &none
+&trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans   &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                    &trans        &kp N4        &kp N5        &kp N6        &trans        &trans
+&trans   &kp F6        &kp F7        &kp F8        &kp F9        &kp F10                   &kp N0        &kp NUMBER_1  &kp N2        &kp N3        &trans        &trans
 &kp F11  &kp F12       &trans        &trans        &trans                          &trans  &trans                                                                &trans
             >;
         };
