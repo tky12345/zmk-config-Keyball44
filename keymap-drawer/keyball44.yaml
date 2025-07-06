@@ -44,7 +44,7 @@ layers:
   - {t: INT MUHENKAN, h: NUM}
   - {t: INT HENKAN, h: NUM}
   - {t: '$$mdi:keyboard-return$$', h: SYM}
-  - {t: '$$mdi:backspace$$', h: MOUSE}
+  - {t: '$$mdi:backspace$$', h: NUM}
   SYM:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -134,7 +134,7 @@ layers:
   - {type: held}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   MOUSE:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
@@ -179,7 +179,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   NUM2:
   - {t: '$$mdi:transfer$$', type: trans}
   - '1'
