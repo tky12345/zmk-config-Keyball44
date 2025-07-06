@@ -88,7 +88,7 @@
             bindings = <
 &kp ESC        &kp N1  &kp N2  &kp N3     &kp N4  &kp N5              &kp N6     &kp N7    &kp UP     &kp N9     &kp N0     &none
 &mt LCTRL TAB  &kp Q   &kp W   &kp E      &kp E   &kp T               &kp Y      &kp LEFT  &kp DOWN   &kp RIGHT  &kp PG_UP  &kp HOME
-&kp LSHFT      &kp Z   &kp X   &kp C      &kp V   &kp B               &mkp MB5   &mkp MB5  &mkp LCLK  &mkp RCLK  &kp PG_DN  &kp END
+&kp LSHFT      &kp Z   &kp X   &kp C      &kp V   &kp B               &mkp MB4   &mkp MB5  &mkp LCLK  &mkp RCLK  &kp PG_DN  &kp END
 &trans         &trans  &trans  &kp SPACE  &trans              &trans  &kp ENTER                                             &none
             >;
         };
