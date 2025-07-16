@@ -59,7 +59,7 @@
 &kp ESCAPE      &kp Q         &kp W         &kp E        &kp R               &kp T                        &kp Y      &kp U  &kp I      &kp O    &kp P        &kp LBKT
 &mt LCTRL TAB   &kp A         &kp S         &kp D        &kp F               &kp G                        &kp H      &kp J  &kp K      &kp L    &kp MINUS    &kp SEMI
 &kp LEFT_SHIFT  &kp Z         &kp X         &kp C        &kp V               &kp B                        &kp N      &kp M  &kp COMMA  &kp DOT  &lt 3 SLASH  &kp INT_RO
-&mo 1           &kp LEFT_GUI  &kp LEFT_ALT  &lt 3 SPACE  &lt 2 INT_MUHENKAN             &lt 2 INT_HENKAN  &lt 1 RET                                          &lt 3 BACKSPACE
+&mo 1           &kp LEFT_GUI  &kp LEFT_ALT  &lt 3 SPACE  &lt 2 INT_MUHENKAN             &lt 2 INT_HENKAN  &lt 1 RET                                          &kp BACKSPACE
             >;
         };
 
@@ -76,20 +76,20 @@
         scroll_layer {
             label = "NUM";
             bindings = <
-&trans   &trans   &trans  &trans  &trans  &trans               &kp EQUAL  &kp N7  &kp N8  &kp N9  &kp PLUS    &kp ASTERISK
-&trans   &kp F1   &kp F2  &kp F3  &kp F4  &kp F5               &trans     &kp N4  &kp N5  &kp N6  &kp MINUS   &kp SLASH
-&trans   &kp F6   &kp F7  &kp F8  &kp F9  &kp F10              &kp N0     &kp N1  &kp N2  &kp N3  &kp PERIOD  &trans
-&kp F11  &kp F12  &trans  &trans  &trans               &trans  &trans                                         &kp DELETE
+&trans   &trans   &trans  &trans  &trans  &trans               &kp N7  &kp N8  &kp N9  &kp LS(PLUS)  &kp LS(STAR)  &trans
+&trans   &kp F1   &kp F2  &kp F3  &kp F4  &kp F5               &kp N4  &kp N5  &kp N6  &kp MINUS     &kp FSLH      &trans
+&trans   &kp F6   &kp F7  &kp F8  &kp F9  &kp F10              &kp N1  &kp N2  &kp N3  &kp DOT       &kp FSLH      &trans
+&kp F11  &kp F12  &trans  &trans  &trans               &trans  &kp N0                                              &kp BSPC
             >;
         };
 
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&kp ESC        &kp N1  &kp N2  &kp N3     &kp N4  &kp N5              &kp N6     &kp N7    &kp UP     &kp N9     &kp N0     &none
-&mt LCTRL TAB  &kp Q   &kp W   &kp E      &kp E   &kp T               &kp Y      &kp LEFT  &kp DOWN   &kp RIGHT  &kp PG_UP  &kp HOME
-&kp LSHFT      &kp Z   &kp X   &kp C      &kp V   &kp B               &mkp MB4   &mkp MB5  &mkp LCLK  &mkp RCLK  &kp PG_DN  &kp END
-&trans         &trans  &trans  &kp SPACE  &trans              &trans  &kp ENTER                                             &none
+&kp ESC        &kp Q   &kp W   &kp E      &kp R   &kp T              &none      &none     &kp UP     &none      &none      &none
+&mt LCTRL TAB  &kp A   &kp S   &kp D      &kp F   &kp G              &none      &kp LEFT  &kp DOWN   &kp RIGHT  &kp PG_UP  &kp HOME
+&kp LSHFT      &kp Z   &kp X   &kp C      &kp V   &kp B              &mkp MB4   &mkp MB5  &mkp LCLK  &mkp RCLK  &kp PG_DN  &kp END
+&trans         &trans  &trans  &kp SPACE  &trans             &trans  &kp ENTER                                             &none
             >;
         };
 
