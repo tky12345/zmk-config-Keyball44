@@ -122,5 +122,15 @@
 &trans  &trans  &trans  &trans  &trans              &trans  &trans                                  &trans
             >;
         };
+
+        layer_7 {
+            label = "MOUSE_2";
+            bindings = <
+&kp ESC               &kp Q     &kp W     &kp E      &kp R   &kp T              &kp N6         &kp N7     &kp N8     &kp N9     &lt 5 NUMBER_0  &trans
+&mt LEFT_CONTROL TAB  &kp A     &kp S     &kp D      &kp F   &kp G              &kp PAGE_UP    &mkp LCLK  &mkp LCLK  &mkp LCLK  &mkp RCLK       &trans
+&kp LSHFT             &kp Z     &kp X     &kp C      &kp V   &kp B              &kp PAGE_DOWN  &trans     &mkp MB4   &mkp MB5   &mkp MCLK       &trans
+&kp LGUI              &kp LGUI  &kp LALT  &kp SPACE  &trans             &trans  &kp ENTER                                                       &trans
+            >;
+        };
     };
 };
