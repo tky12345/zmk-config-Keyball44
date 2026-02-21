@@ -58,7 +58,7 @@
             bindings = <
 &kp ESCAPE      &kp Q         &kp W         &kp E        &kp R               &kp T                        &kp Y        &kp U  &kp I      &kp O    &lt 5 P    &kp LBKT
 &mt LCTRL TAB   &kp A         &kp S         &kp D        &kp F               &kp G                        &kp H        &kp J  &kp K      &kp L    &kp MINUS  &kp SEMI
-&kp LEFT_SHIFT  &kp Z         &kp X         &kp C        &kp V               &kp B                        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp INT_RO
+&kp LEFT_SHIFT  &kp Z         &kp X         &kp C        &kp V               &kp B                        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH  &lt 1 INT_RO
 &kp LGUI        &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 SPACE  &lt 5 INT_MUHENKAN             &lt 2 INT_HENKAN  &lt 3 ENTER                                        &kp BACKSPACE
             >;
         };
@@ -66,10 +66,10 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans   &kp N1   &kp N2  &kp N3  &kp N4  &kp N5               &kp N6         &kp N7     &kp N8  &kp N9     &lt 5 NUMBER_0  &trans
-&trans   &kp F1   &kp F2  &kp F3  &kp F4  &kp F5               &kp PAGE_UP    &mkp LCLK  &trans  &mkp LCLK  &mkp RCLK       &trans
-&trans   &kp F6   &kp F7  &kp F8  &kp F9  &kp F10              &kp PAGE_DOWN  &trans     &trans  &mkp MB4   &mkp MB5        &trans
-&kp F11  &kp F12  &trans  &trans  &trans               &trans  &trans                                                       &trans
+&trans   &kp N1   &kp N2  &kp N3  &kp N4  &kp N5               &kp N6         &kp N7     &kp N8     &kp N9     &lt 5 NUMBER_0  &trans
+&trans   &kp F1   &kp F2  &kp F3  &kp F4  &kp F5               &kp PAGE_UP    &mkp LCLK  &mkp LCLK  &mkp LCLK  &mkp RCLK       &trans
+&trans   &kp F6   &kp F7  &kp F8  &kp F9  &kp F10              &kp PAGE_DOWN  &trans     &mkp MB4   &mkp MB5   &mkp MCLK       &trans
+&kp F11  &kp F12  &trans  &trans  &trans               &trans  &trans                                                          &trans
             >;
         };
 
