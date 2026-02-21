@@ -43,7 +43,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: MOUSE}
   - {t: INT MUHENKAN, h: SCROLL}
   - {t: '$$mdi:keyboard-return$$', h: NUM}
-  - {t: '$$mdi:keyboard-return$$', h: SYM}
+  - {t: INT HENKAN, h: SYM}
   - {t: '$$mdi:backspace$$', type: backspace}
   MOUSE:
   - {t: '$$mdi:transfer$$', type: trans}
