@@ -24,7 +24,7 @@ layers:
   - K
   - L
   - {t: '-', s: _}
-  - {t: ;, s: ':'}
+  - {t: ;, h: SCROLL, s: ':'}
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -38,7 +38,7 @@ layers:
   - {t: /, s: '?'}
   - {t: INT RO, h: MOUSE}
   - LGUI
-  - LEFT WIN
+  - $$mdi:apple-keyboard-option$$
   - {t: INT MUHENKAN, h: MOUSE}
   - {t: '$$mdi:keyboard-space$$', h: SCROLL}
   - {t: INT MUHENKAN, h: SCROLL}
@@ -249,7 +249,7 @@ layers:
   - {t: '6', s: ^}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - F6
   - F7
