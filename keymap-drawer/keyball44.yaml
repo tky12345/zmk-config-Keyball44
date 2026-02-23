@@ -23,7 +23,7 @@ layers:
   - J
   - K
   - L
-  - {t: '-', s: _}
+  - {t: '-', h: MOUSE, s: _}
   - {t: ;, h: SCROLL, s: ':'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -41,7 +41,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: INT MUHENKAN, h: MOUSE}
   - {t: '$$mdi:keyboard-space$$', h: MOUSE}
-  - {t: INT MUHENKAN, h: SCROLL}
+  - {t: '$$mdi:keyboard-space$$', h: SCROLL}
   - {t: '$$mdi:keyboard-return$$', h: NUM}
   - {t: INT HENKAN, h: SYM}
   - {t: '$$mdi:backspace$$', type: backspace}
@@ -67,8 +67,8 @@ layers:
   - PgUp
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:mouse-right-click-outline$$', type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F6
@@ -81,7 +81,7 @@ layers:
   - '&mkp MB4'
   - '&mkp MB5'
   - $$mdi:mouse-scroll-wheel$$
-  - {type: held}
+  - {type: held alternate}
   - F11
   - F12
   - {type: held alternate}
@@ -248,7 +248,7 @@ layers:
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - F6
