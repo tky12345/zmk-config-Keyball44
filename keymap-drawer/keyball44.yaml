@@ -17,10 +17,10 @@ layers:
   - A
   - S
   - D
-  - F
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - H
-  - J
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
   - K
   - L
   - {t: '-', h: MOUSE, s: _}
@@ -360,3 +360,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [15, 14]
+  k: $$mdi:keyboard-tab$$
