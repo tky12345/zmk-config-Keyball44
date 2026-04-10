@@ -15,14 +15,14 @@ layers:
   - {t: '[', s: '{'}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
-  - S
-  - D
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - K
-  - L
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '-', h: MOUSE, s: _}
   - {t: ;, h: SCROLL, s: ':'}
   - $$mdi:apple-keyboard-shift$$
@@ -363,3 +363,9 @@ layers:
 combos:
 - p: [15, 14]
   k: $$mdi:keyboard-tab$$
+- p: [2, 3]
+  k: $$mdi:keyboard-esc$$
+- p: [9, 10]
+  k: {t: '[', s: '{'}
+- p: [21, 22]
+  k: {t: ;, s: ':'}
