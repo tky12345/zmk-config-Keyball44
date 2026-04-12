@@ -105,10 +105,10 @@
         number_layer {
             label = "NUM";
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &kp N7        &kp N8        &kp N9        &kp NUMBER_9  &kp NUMBER_0  &trans
-&trans  &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &trans                    &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans        &trans        &trans
-&trans  &trans        &trans        &trans        &trans        &trans                    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans        &trans
-&trans  &trans        &trans        &trans        &trans                          &trans  &kp N0                                                                &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5              &kp N6        &kp N7  &kp N8  &kp N9  &kp NUMBER_0  &trans
+&trans  &kp LEFT      &kp DOWN      &kp UP_ARROW  &kp RIGHT     &trans                    &kp NUMBER_4  &kp N4  &kp N5  &kp N6  &trans        &trans
+&trans  &trans        &trans        &trans        &trans        &trans                    &kp NUMBER_1  &kp N1  &kp N2  &kp N3  &trans        &trans
+&trans  &trans        &trans        &trans        &trans                          &trans  &kp N0                                              &trans
             >;
         };
 
@@ -135,9 +135,9 @@
         scroll_layer {
             label = "SCROLL";
             bindings = <
-&trans   &trans   &trans  &trans  &trans  &trans               &kp N7  &kp N8  &kp N9  &trans  &trans  &trans
-&trans   &kp F1   &kp F2  &kp F3  &kp F4  &kp F5               &kp N4  &kp N5  &kp N6  &trans  &trans  &trans
-&trans   &kp F6   &kp F7  &kp F8  &kp F9  &kp F10              &kp N1  &kp N2  &kp N3  &trans  &trans  &trans
+&trans   &trans   &trans  &trans  &trans  &trans               &kp N7  &kp N7  &kp N8  &kp N9  &trans  &trans
+&trans   &kp F1   &kp F2  &kp F3  &kp F4  &kp F5               &kp N4  &kp N4  &kp N5  &kp N6  &trans  &trans
+&trans   &kp F6   &kp F7  &kp F8  &kp F9  &kp F10              &kp N1  &kp N1  &kp N2  &kp N3  &trans  &trans
 &kp F11  &kp F12  &trans  &trans  &trans               &trans  &kp N0                                  &trans
             >;
         };
