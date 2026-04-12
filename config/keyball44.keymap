@@ -9,7 +9,6 @@
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -85,20 +84,40 @@
         default_layer {
             label = "QWRT";
             bindings = <
-&kp ESCAPE      &kp Q         &kp W                      &kp E             &kp R        &kp T                   &kp Y             &kp U        &kp I              &kp O              &lt 5 P      &kp LBKT
-&mt LCTRL TAB   &kp A         &mt LEFT_SHIFT S           &mt LEFT_SHIFT D  &mt LCTRL F  &kp G                   &kp H             &mt LCTRL J  &mt RIGHT_SHIFT K  &mt RIGHT_SHIFT L  &lt 1 MINUS  &lt 5 SEMICOLON
-&kp LEFT_SHIFT  &kp Z         &kp X                      &kp C             &kp V        &kp B                   &kp N             &kp M        &kp COMMA          &kp DOT            &kp SLASH    &lt 1 INT_RO
-&kp LGUI        &kp LEFT_ALT  &mt LEFT_ALT INT_MUHENKAN  &lt 1 SPACE       &lt 5 SPACE             &lt 2 ENTER  &lt 3 INT_HENKAN                                                                  &kp BACKSPACE
+&kp ESCAPE      &kp Q         &kp W                      &kp E             &kp R        &kp T                   &kp Y             &kp U        &kp I              &kp O              &lt 3 P      &kp LBKT
+&mt LCTRL TAB   &kp A         &mt LEFT_SHIFT S           &mt LEFT_SHIFT D  &mt LCTRL F  &kp G                   &kp H             &mt LCTRL J  &mt RIGHT_SHIFT K  &mt RIGHT_SHIFT L  &lt 2 MINUS  &lt 3 SEMICOLON
+&kp LEFT_SHIFT  &kp Z         &kp X                      &kp C             &kp V        &kp B                   &kp N             &kp M        &kp COMMA          &kp DOT            &kp SLASH    &lt 2 INT_RO
+&kp LGUI        &kp LEFT_ALT  &mt LEFT_ALT INT_MUHENKAN  &lt 2 SPACE       &lt 3 SPACE             &lt 3 ENTER  &lt 1 INT_HENKAN                                                                  &kp BACKSPACE
+            >;
+        };
+
+        cursol_layer {
+            label = "CUR";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans              &kp HOME        &kp PG_UP  &kp UP    &kp PG_DN  &kp RIGHT_PARENTHESIS  &trans
+&trans  &trans  &trans  &trans  &trans  &trans              &kp END         &kp LEFT   &kp DOWN  &kp RIGHT  &kp CARET              &kp APOS
+&trans  &trans  &trans  &trans  &trans  &trans              &kp UNDERSCORE  &kp PLUS   &kp RBKT  &kp BSLH   &kp NON_US_BACKSLASH   &kp BSLH
+&trans  &trans  &trans  &trans  &trans              &trans  &trans                                                                 &kp DEL
             >;
         };
 
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans   &kp N1   &kp N2  &kp N3  &kp N4  &kp N5               &kp N6         &kp N7     &kp N8     &kp N9     &lt 5 NUMBER_0  &trans
+&trans   &kp N1   &kp N2  &kp N3  &kp N4  &kp N5               &kp N6         &kp N7     &kp N8     &kp N9     &lt 3 NUMBER_0  &trans
 &trans   &kp F1   &kp F2  &kp F3  &kp F4  &kp F5               &kp PAGE_UP    &mkp LCLK  &mkp LCLK  &mkp RCLK  &mkp RCLK       &trans
 &trans   &kp F6   &kp F7  &kp F8  &kp F9  &kp F10              &kp PAGE_DOWN  &trans     &mkp MB4   &mkp MB5   &mkp MCLK       &trans
 &kp F11  &kp F12  &trans  &trans  &trans               &trans  &trans                                                          &trans
+            >;
+        };
+
+        scroll_number_layer {
+            label = "SCR_NUM";
+            bindings = <
+&trans   &kp N1   &kp N2  &kp N3  &kp N4  &kp N5               &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans
+&trans   &kp F1   &kp F2  &kp F3  &kp F4  &kp F5               &kp N4  &kp N4  &kp N5  &kp N6  &trans  &trans
+&trans   &kp F6   &kp F7  &kp F8  &kp F9  &kp F10              &kp N1  &kp N1  &kp N2  &kp N3  &trans  &trans
+&kp F11  &kp F12  &trans  &trans  &trans               &trans  &kp N0                                  &trans
             >;
         };
 
@@ -112,33 +131,13 @@
             >;
         };
 
-        symbol_layer {
-            label = "SYM";
-            bindings = <
-&trans  &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR    &kp PERCENT              &kp HOME        &kp PG_UP  &kp UP    &kp PG_DN  &kp RIGHT_PARENTHESIS  &trans
-&trans  &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans                   &kp END         &kp LEFT   &kp DOWN  &kp RIGHT  &kp CARET              &kp APOS
-&trans  &trans           &trans        &trans        &trans        &trans                   &kp UNDERSCORE  &kp PLUS   &kp RBKT  &kp BSLH   &kp NON_US_BACKSLASH   &kp BSLH
-&trans  &trans           &trans        &trans        &trans                         &trans  &trans                                                                 &kp DEL
-            >;
-        };
-
         function_layer {
             label = "FUN";
             bindings = <
 &trans  &kp F1  &kp F2   &kp F3   &kp F4   &trans              &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp F5  &kp F6   &kp F7   &kp F8   &trans              &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans   &trans   &trans               &trans  &mo 4                                   &trans
-            >;
-        };
-
-        scroll_layer {
-            label = "SCROLL";
-            bindings = <
-&trans   &trans   &trans  &trans  &trans  &trans               &kp N7  &kp N7  &kp N8  &kp N9  &trans  &trans
-&trans   &kp F1   &kp F2  &kp F3  &kp F4  &kp F5               &kp N4  &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans   &kp F6   &kp F7  &kp F8  &kp F9  &kp F10              &kp N1  &kp N1  &kp N2  &kp N3  &trans  &trans
-&kp F11  &kp F12  &trans  &trans  &trans               &trans  &kp N0                                  &trans
+&trans  &trans  &trans   &trans   &trans               &trans  &mo 5                                   &trans
             >;
         };
 
@@ -155,10 +154,10 @@
         layer_7 {
             label = "MOUSE_2";
             bindings = <
-&kp ESC               &kp Q     &kp W               &kp E        &kp R   &kp T              &kp N6         &kp N7     &kp N8     &kp N9     &lt 5 NUMBER_0  &trans
+&kp ESC               &kp Q     &kp W               &kp E        &kp R   &kp T              &kp N6         &kp N7     &kp N8     &kp N9     &lt 3 NUMBER_0  &trans
 &mt LEFT_CONTROL TAB  &kp A     &kp S               &kp D        &kp F   &kp G              &kp PAGE_UP    &mkp LCLK  &mkp LCLK  &mkp LCLK  &mkp RCLK       &trans
 &kp LSHFT             &kp Z     &kp X               &kp C        &kp V   &kp B              &kp PAGE_DOWN  &trans     &mkp MB4   &mkp MB5   &mkp MCLK       &trans
-&kp LGUI              &kp LGUI  &lt 1 INT_MUHENKAN  &lt 5 SPACE  &trans             &trans  &kp ENTER                                                       &trans
+&kp LGUI              &kp LGUI  &lt 2 INT_MUHENKAN  &lt 3 SPACE  &trans             &trans  &kp ENTER                                                       &trans
             >;
         };
     };
