@@ -72,6 +72,11 @@
             bindings = <&kp SEMICOLON>;
             key-positions = <21 22>;
         };
+
+        ro {
+            bindings = <&kp INT1>;
+            key-positions = <32 33>;
+        };
     };
 
     keymap {
