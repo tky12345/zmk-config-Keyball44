@@ -21,9 +21,9 @@ layers:
   - G
   - H
   - {t: J, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: MOUSE}
   - {t: L, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '-', h: MOUSE, s: _}
+  - {t: '-', h: SCR_NUM, s: _}
   - {t: ;, h: SCR_NUM, s: ':'}
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
@@ -39,8 +39,8 @@ layers:
   - {t: INT RO, h: MOUSE}
   - LGUI
   - $$mdi:apple-keyboard-option$$
-  - {t: INT MUHENKAN, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-space$$', h: MOUSE}
+  - {t: '$$mdi:apple-keyboard-option$$', h: SCR_NUM}
+  - {t: INTERNATIONAL 5, h: MOUSE}
   - {t: '$$mdi:keyboard-space$$', h: SCR_NUM}
   - {t: '$$mdi:keyboard-return$$', h: SCR_NUM}
   - {t: INT HENKAN, h: CUR}
@@ -111,9 +111,9 @@ layers:
   - F5
   - PgUp
   - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:mouse-left-click-outline$$', type: held}
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:mouse-right-click-outline$$', type: held}
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F6
@@ -156,7 +156,7 @@ layers:
   - F5
   - {t: '4', s: $}
   - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - {t: '5', s: '%', type: held alternate}
   - {t: '6', s: ^}
   - {type: held alternate}
   - {type: held alternate}
@@ -174,7 +174,7 @@ layers:
   - {type: held alternate}
   - F11
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {type: held alternate}
   - {type: held alternate}
   - {type: held alternate}
