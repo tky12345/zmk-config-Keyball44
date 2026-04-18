@@ -26,7 +26,7 @@ layers:
   - {t: '-', h: MOUSE, s: _}
   - {t: ;, h: SCR_NUM, s: ':'}
   - $$mdi:apple-keyboard-shift$$
-  - Z
+  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
   - X
   - C
   - V
@@ -35,7 +35,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
   - {t: INT RO, h: MOUSE}
   - LGUI
   - $$mdi:apple-keyboard-option$$
@@ -365,9 +365,11 @@ combos:
   k: $$mdi:keyboard-tab$$
 - p: [2, 3]
   k: $$mdi:keyboard-esc$$
-- p: [9, 10]
+- p: [9, 8]
   k: {t: '[', s: '{'}
-- p: [21, 22]
+- p: [19, 20]
   k: $$mdi:mouse-left-click-outline$$
 - p: [32, 33]
   k: INT1
+- p: [20, 21]
+  k: $$mdi:mouse-right-click-outline$$
