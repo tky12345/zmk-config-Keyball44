@@ -68,7 +68,7 @@
         };
 
         semi {
-            bindings = <&kp SEMICOLON>;
+            bindings = <&mkp LCLK>;
             key-positions = <21 22>;
         };
 
